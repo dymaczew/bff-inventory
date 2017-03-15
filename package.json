@@ -1,0 +1,23 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "BFF application that invokes backend microsevice to fetch inventory items",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "inventory",
+    "item",
+    "bff"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "cfenv": "1.0.x",
+    "body-parser": "1.9.x",
+    "bluemix-autoscaling-agent": "*",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "request": "*"
+  }
+}
