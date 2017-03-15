@@ -1,7 +1,7 @@
 module.exports = function(app, request) {
 
 	var resJson = [];
-	var microserviceBaseUrl = "https://inventoryservice-dymaczew.mybluemix.net/micro";
+	var microserviceBaseUrl = "https://netflix-zuul-dymaczew.mybluemix.net/inventory-microservice/micro";
 
 //	validation check
 	app.get('/api/items/validate',function(req, res){
